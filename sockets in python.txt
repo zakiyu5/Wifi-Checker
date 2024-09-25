@@ -1,0 +1,5 @@
+Socket programming in python
+socket is wireless connetion btn tow ports 
+two ports to communicate with each other eg server and client 
+AF_NET = address formula stands for IPV4
+SOCK_STREAM = connetion oriented TCP Protocal

@@ -1,0 +1,19 @@
+nmap is a networking scan tool 
+Nmap is a network scanning tool that uses IP packets 
+to identify all the devices connected to a network
+ and to provide information on the services and operating systems
+  they are running.
+  its better to do nmap scanning on a local host network since it is illegal 
+  to scan a network without permission.
+  nmap is a powerful tool that can be used for network discovery,
+  # types of available port scanning on the system
+
+  Vanilla == this where the attacker scans all virtual ports on the system 
+  Sweep =  system wide attacker which helps attackers to seea all laptops 
+  available and on the network
+  # stealth
+#Ftp bounce ?
+port distribution
+system port : 0 - 1023
+Registered port : 1024 -49151
+private ports : 49151 and above 

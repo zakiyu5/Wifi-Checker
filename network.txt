@@ -1,0 +1,23 @@
+program to show available networks 
+here we need to import a module named as subprocess 
+then after we create two python objects one with networks and another 
+one decoded for the ASCII
+program
+import subprocess
+nw = subprocess.checkoutput(["netsh","wlan","show","networks"])
+decorded_nw = nw.decord("ASCII")
+print(decorded_nw)<|eom_id|><|start_header_id|>assistant
+print(decorded_nw)# printing available networks 
+
+# SSID stands for Service set Identifier 
+it shows your service name 
+#CCMP stands for counter mode Cipher Block Chaining 
+# message Authentication Code Protocal or CCM Protocal
+# TKIP stands for Temporary Key Integrity protocal provides
+perpacket key mixing a message Integrity and rekeying mechanism
+# WPA2 stands for Wi-Fi Protected Access 2
+# commands 
+netsh wlan ?
+displays all commands about it 
+# To Show available networks 
+netsh wlan show all 
